@@ -8,9 +8,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntryPoints", "EntryPoints"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{6F78971D-448A-434F-B850-2A72BF5E6068}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversiteDomain", "UniversiteDomain\UniversiteDomain.csproj", "{669388BB-3C8B-4432-AF44-7B84CCD92DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversiteDomainUnitTests", "UniversiteDomainUnitTests\UniversiteDomainUnitTests.csproj", "{77F7EB7E-CE72-4755-AF3C-B771F3A1FF04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{669388BB-3C8B-4432-AF44-7B84CCD92DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669388BB-3C8B-4432-AF44-7B84CCD92DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669388BB-3C8B-4432-AF44-7B84CCD92DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669388BB-3C8B-4432-AF44-7B84CCD92DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F7EB7E-CE72-4755-AF3C-B771F3A1FF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F7EB7E-CE72-4755-AF3C-B771F3A1FF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F7EB7E-CE72-4755-AF3C-B771F3A1FF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F7EB7E-CE72-4755-AF3C-B771F3A1FF04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
